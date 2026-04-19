@@ -55,3 +55,4 @@ class PoliController extends Controller
         return redirect()->route('polis.index')->with('success', 'Polis Berhasil di hapus !');
     }
 }
+    

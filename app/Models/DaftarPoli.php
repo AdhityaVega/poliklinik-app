@@ -25,7 +25,7 @@ class DaftarPoli extends Model
         return $this->belongsTo(JadwalPeriksa::class, 'id_jadwal');
     }
 
-    public function periksas()
+    public function periksa()
     {
         return $this->hasMany(Periksa::class, 'id_daftar_poli');
     }

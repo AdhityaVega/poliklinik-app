@@ -10,6 +10,7 @@ export default {
         './resources/**/*.js',
         './resources/**/*.vue',
     ],
+
     theme: {
         extend: {
             fontFamily: {
@@ -17,5 +18,6 @@ export default {
             },
         },
     },
+
     plugins: [daisyui],
 };
