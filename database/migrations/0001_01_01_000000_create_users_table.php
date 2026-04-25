@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('alamat')->nullable();
             $table->string('no_ktp')->nullable();
             $table->string('no_hp')->nullable();
-            $table->string('n0_rm, 25')->nullable();
+            $table->string('no_rm')->nullable();
             $table->enum('role', ['admin', 'dokter', 'pasien']);
             $table->string('email')->unique();
             $table->string('password');
